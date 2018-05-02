@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33112" started-at="2018-05-01T19:56:30Z" finished-at="2018-05-01T19:57:03Z">
+    <groups>
+    </groups>
+    <test name="VerifyLandingPageTitleTest" duration-ms="14477" started-at="2018-05-01T19:56:30Z" finished-at="2018-05-01T19:56:45Z">
+      <class name="Academy.VerifyLandingPageTitleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Academy.VerifyLandingPageTitleTest@6e509ffa]" name="setUp" is-config="true" duration-ms="12127" started-at="2018-05-01T19:56:30Z" finished-at="2018-05-01T19:56:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Academy.VerifyLandingPageTitleTest@6e509ffa]" name="Login" duration-ms="18" started-at="2018-05-01T19:56:42Z" finished-at="2018-05-01T19:56:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.VerifyLandingPageTitleTest@6e509ffa]" name="tearDown" is-config="true" duration-ms="2312" started-at="2018-05-01T19:56:42Z" finished-at="2018-05-01T19:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.VerifyLandingPageTitleTest -->
+    </test> <!-- VerifyLandingPageTitleTest -->
+    <test name="HomePage_LoginTest" duration-ms="18571" started-at="2018-05-01T19:56:45Z" finished-at="2018-05-01T19:57:03Z">
+      <class name="Academy.HomePage_LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Academy.HomePage_LoginTest@55740540]" name="setUp" is-config="true" duration-ms="1957" started-at="2018-05-01T19:56:45Z" finished-at="2018-05-01T19:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage_LoginTest@55740540]" name="Login" duration-ms="12220" started-at="2018-05-01T19:56:47Z" data-provider="getData" finished-at="2018-05-01T19:56:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage_LoginTest@55740540]" name="Login" duration-ms="4207" started-at="2018-05-01T19:56:59Z" data-provider="getData" finished-at="2018-05-01T19:57:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage_LoginTest@55740540]" name="tearDown" is-config="true" duration-ms="183" started-at="2018-05-01T19:57:03Z" finished-at="2018-05-01T19:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePage_LoginTest -->
+    </test> <!-- HomePage_LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>

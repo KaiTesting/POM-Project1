@@ -1,0 +1,7 @@
+18:21:09.198 [main] INFO  resources.Base - 123456
+18:21:10.535 [main] INFO  resources.Base - Click submit button
+18:21:12.043 [main] INFO  resources.Base - Launching Browser
+18:21:13.099 [main] INFO  resources.Base - Clicked on Login button
+18:21:13.223 [main] INFO  resources.Base - username2@gmail.com
+18:21:13.295 [main] INFO  resources.Base - 456789
+18:21:14.452 [main] INFO  resources.Base - Click submit button
