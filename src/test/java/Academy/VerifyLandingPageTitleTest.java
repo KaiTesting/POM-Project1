@@ -35,7 +35,7 @@ public class VerifyLandingPageTitleTest extends Base {
 		String Title = driver.getTitle();
 
 		Assert.assertEquals(Title,
-				"QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training ");
+				"QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy");
 		
 		log.info(Title);
 
